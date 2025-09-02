@@ -8,10 +8,16 @@ import acmverse from '../assets/events/acmverse.svg';
 
 const events = [
   {
+    eventName: "HACKSYNC 2025",
+    eventDetail: "Dive into HackSync — A Coding Competition of ACM where your journey begins.Skills grow, leaders rise, and fun never ends.",
+    eventThumbNail: emptyThumbNail,
+    status: "concluded"
+  },
+  {
     eventName: "ACMVERSE 2025",
     eventDetail: "Dive into ACM Verse — the recruitment realm of ACM where your journey begins.Skills grow, leaders rise, and fun never ends.",
     eventThumbNail: acmverse,
-    status: "upcoming"
+    status: "concluded"
   },
   {
     eventName: "DESIGNXPERT 2025",
