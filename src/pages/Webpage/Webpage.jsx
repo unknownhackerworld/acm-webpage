@@ -1,0 +1,38 @@
+import React from 'react'
+import Header from '../../components/header/Header';
+import Banner from '../Webpage/Banner'
+import OurEvents from '../Webpage/OurEvents'
+import Members from '../Webpage/Members';
+import Gallery from '../Webpage/Gallery'
+import Faculties from '../Webpage/Faculties'
+import FacultyAdvisor from '../Webpage/FacultyAdvisor'
+import FacultySponsor from '../Webpage/FacultySponsor'
+import CurrentEvents from './CurrentEvents';
+import Footer from './Footer'
+
+const Webpage = () => {
+
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  return (
+    <div className='w-full'>
+        <Header scrollToSection={scrollToSection} />
+        <Banner />
+        <OurEvents />
+        <Members />
+        {/* <Gallery />
+        <Faculties /> */}
+        <FacultyAdvisor />
+        <FacultySponsor />
+        <CurrentEvents />
+        <Footer />
+    </div>
+  )
+}
+
+export default Webpage
