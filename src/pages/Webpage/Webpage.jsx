@@ -15,9 +15,15 @@ const Webpage = () => {
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
+      const offset = 100;
+      const sectionTop = section.getBoundingClientRect().top + window.scrollY;
+      window.scrollTo({
+        top: sectionTop - offset,
+        behavior: "smooth",
+      });
     }
   };
+
 
   return (
     <div className='w-full'>

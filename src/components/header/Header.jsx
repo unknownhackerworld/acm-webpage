@@ -45,10 +45,11 @@ const Header = ({ scrollToSection }) => {
 
         {/* Desktop Menu */}
         <div className="lg:flex hidden font-inter font-semibold text-sm text-black gap-12 pr-[92px]">
-          <span className="cursor-pointer" onClick={() => scrollToSection('home')}>Home</span>
-          <span className="cursor-pointer" onClick={() => scrollToSection('events')}>Events</span>
+          <span className="cursor-pointer" onClick={() => scrollToSection('home')}>Home</span>   
           <span className="cursor-pointer" onClick={() => scrollToSection('people')}>People</span>
           <span className="cursor-pointer" onClick={() => scrollToSection('about')}>About Us</span>
+
+          <span className="cursor-pointer" onClick={() => scrollToSection('events')}>Events</span>
           <span className="cursor-pointer" onClick={() => scrollToSection('contact')}>Contact Us</span>
         </div>
 
@@ -60,9 +61,9 @@ const Header = ({ scrollToSection }) => {
         >
           <div className="flex flex-col items-center space-y-6 py-6 px-5 font-inter">
             <span className="text-lg font-semibold text-black cursor-pointer" onClick={() => {scrollToSection('home'); setIsMenuOpen(false)}}>Home</span>
-            <span className="text-lg font-semibold text-black cursor-pointer" onClick={() => {scrollToSection('events'); setIsMenuOpen(false)}}>Events</span>
             <span className="text-lg font-semibold text-black cursor-pointer" onClick={() => {scrollToSection('people'); setIsMenuOpen(false)}}>People</span>
-            <span className="text-lg font-semibold text-black cursor-pointer" onClick={() => {scrollToSection('about'); setIsMenuOpen(false)}}>About Us</span>
+            <span className="text-lg font-semibold text-black cursor-pointer" onClick={() => { scrollToSection('about'); setIsMenuOpen(false) }}>About Us</span>
+            <span className="text-lg font-semibold text-black cursor-pointer" onClick={() => { scrollToSection('events'); setIsMenuOpen(false) }}>Events</span>
             <span className="text-lg font-semibold text-black cursor-pointer" onClick={() => {scrollToSection('contact'); setIsMenuOpen(false)}}>Contact Us</span>
           </div>
         </div>
