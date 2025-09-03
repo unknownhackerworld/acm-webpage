@@ -43,8 +43,8 @@ const Members = () => {
 
   return (
     <><center>
-      <div id="people" className='mb-10'><h1 className='font-bold text-4xl mb-5 text-[#15ade5] underline underline-offset-4
-'>Your People</h1>
+      <div id="people" className='mb-10'>
+        {/*<h1 className='font-bold text-4xl mb-5 text-[#15ade5] underline underline-offset-4'>Your People</h1> */}
        
       </div>
     </center><div className="px-6 lg:pl-[61px] lg:pr-[77px] pb-8 lg:pb-[64px]">

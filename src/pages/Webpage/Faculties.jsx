@@ -6,9 +6,10 @@ import facultySponsorImg from '../../assets/facultysponsor.svg'
 
 const Faculties = () => {
   return (
-    <><center><h1 id="about" className='font-bold text-4xl mb-16 text-[#15ade5] underline underline-offset-4
-'>Our Faculties</h1></center>
-    <div className="flex gap-[51px] px-[51px] items-start justify-between pb-[83px]">
+    <><center>
+      {/*<h1 id="about" className='font-bold text-4xl mb-16 text-[#15ade5] underline underline-offset-4
+'>Our Faculties</h1>*/}</center>
+      <div id="about" className="flex gap-[51px] px-[51px] items-start justify-between pb-[83px]">
 
       <FacultyComponent
         heading="Our Faculty Advisor"

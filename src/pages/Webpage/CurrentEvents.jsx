@@ -5,7 +5,8 @@ import events from '../../data/events';
 const CurrentEvents = () => {
   return (
     <><center>
-      <div id="events" className='mb-10'><h1 className='font-bold text-4xl mb-5 text-[#15ade5] underline underline-offset-4'>Our Events</h1>
+      <div id="events" className='mb-10'>
+      { /* <h1 className='font-bold text-4xl mb-5 text-[#15ade5] underline underline-offset-4'>Our Events</h1> */}
       {/* Header Section */}
       
         <span className="text-lg">

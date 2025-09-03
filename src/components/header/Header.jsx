@@ -14,7 +14,7 @@ const Header = ({ scrollToSection }) => {
 
     window.addEventListener("scroll", handleScroll);
 
-    const sections = ["home", "people", "about", "events", "contact"];
+    const sections = ["home", "people", "about", "events"];
     const observers = [];
 
     sections.forEach((id) => {

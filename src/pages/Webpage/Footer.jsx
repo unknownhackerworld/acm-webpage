@@ -50,12 +50,12 @@ const Footer = () => {
             THARUN C
           </a>{" "},<br /> DEVELOPED BY{" "}
           <a
-            href="https://www.linkedin.com/in/adithya-suresh-3a93b825a"
+            href="https://www.linkedin.com/in/allen-joseph-g"
             target="_blank"
             rel="noopener noreferrer"
             className="font-bold underline-offset-2 hover:underline"
           >
-            ADITHYA M S
+            ALLEN JOSEPH G
           </a>
         </p>
       </div>
