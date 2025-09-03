@@ -1,11 +1,11 @@
 import React from 'react';
-import OurEventsImg from '../../assets/ourevents.jpeg';
+import OurEventsImg from '../../assets/ourevents.svg';
 
 const OurEvents = () => {
   return (
     <div id = "home" className="px-6 lg:px-[61px] pt-8 lg:pt-[64px] pb-8 lg:pb-[34px]">
       <div className="flex flex-col xl:flex-row px-4 lg:px-[18px] py-5 lg:py-[21px] bg-[#F6F7F9]">
-        {/* Text Section */}
+
         <div className="font-inter flex flex-col justify-start lg:pr-8">
           <span className="font-bold text-lg lg:text-[22px] text-black pb-4 lg:pb-[14px]">
             ACM - St. Joseph's Student Chapter
@@ -28,7 +28,6 @@ const OurEvents = () => {
           </div>
         </div>
 
-        {/* Image Section */}
         <img
           src={OurEventsImg}
           alt="our events"

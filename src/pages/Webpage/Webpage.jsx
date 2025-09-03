@@ -9,13 +9,14 @@ import FacultyAdvisor from '../Webpage/FacultyAdvisor'
 import FacultySponsor from '../Webpage/FacultySponsor'
 import CurrentEvents from './CurrentEvents';
 import Footer from './Footer'
+import SectionDivided from '../../components/SectionDivided';
 
 const Webpage = () => {
 
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
-      const offset = 100;
+      const offset = 200;
       const sectionTop = section.getBoundingClientRect().top + window.scrollY;
       window.scrollTo({
         top: sectionTop - offset,
@@ -31,10 +32,12 @@ const Webpage = () => {
         <Banner />
         <OurEvents />
         <Members />
-        {/* <Gallery />
-        <Faculties /> */}
-        <FacultyAdvisor />
-        <FacultySponsor />
+         {/* <Gallery /> */}
+        <SectionDivided />
+        <Faculties />
+       {/* <FacultyAdvisor />
+        <FacultySponsor /> */}
+        <SectionDivided />
         <CurrentEvents />
         <Footer />
     </div>

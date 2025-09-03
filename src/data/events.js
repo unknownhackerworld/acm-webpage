@@ -5,12 +5,13 @@ import step from '../assets/events/step.svg';
 import smartfemina from '../assets/events/smartfemina.svg';
 import designxpert from '../assets/events/designxpert.svg';
 import acmverse from '../assets/events/acmverse.svg';
+import hacksync from '../assets/events/HackSync.svg';
 
 const events = [
   {
     eventName: "HACKSYNC 2025",
     eventDetail: "Dive into HackSync — A Coding Competition of ACM where your journey begins.Skills grow, leaders rise, and fun never ends.",
-    eventThumbNail: emptyThumbNail,
+    eventThumbNail: hacksync,
     status: "concluded"
   },
   {
