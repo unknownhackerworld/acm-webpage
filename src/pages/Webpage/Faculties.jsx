@@ -9,7 +9,7 @@ const Faculties = () => {
     <><center>
       {/*<h1 id="about" className='font-bold text-4xl mb-16 text-[#15ade5] underline underline-offset-4
 '>Our Faculties</h1>*/}</center>
-      <div id="about" className="flex gap-[51px] px-[51px] items-start justify-between pb-[83px]">
+      <div id="about" className="flex flex-col md:flex-row gap-[51px] px-[51px] items-start justify-between pb-[83px]">
 
       <FacultyComponent
         heading="Our Faculty Advisor"

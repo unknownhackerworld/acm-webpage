@@ -2,6 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px; /* For horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;  /* light gray track */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #15ade5;  /* ACM Blue */
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0d8fc1; /* darker shade on hover */
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #15ade5 #f1f1f1;
+}
+
 /* Hide scrollbars for carousel */
 .no-scrollbar::-webkit-scrollbar {
   display: none;
@@ -11,8 +38,12 @@
   scrollbar-width: none;    /* Firefox */
 }
 
-
+/* Default cursor */
 body {
-  cursor: url('src/assets/cursor.svg'), auto;
+  cursor: url('src/assets/cursor.svg'), default;
 }
 
+/* Pointer cursor for links & buttons */
+a, button, [role="button"], .cursor-pointer {
+  cursor: url('src/assets/pointingcursor.svg'), pointer;
+}
