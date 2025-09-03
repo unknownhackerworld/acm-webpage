@@ -61,7 +61,7 @@ const Members = () => {
   }, []);
 
   return (
-    <div className="px-6 lg:pl-[61px] lg:pr-[77px] pb-8 lg:pb-[64px]">
+    <div id="people" className="px-6 lg:pl-[61px] lg:pr-[77px] pb-8 lg:pb-[64px]">
       <div className="font-inter flex flex-col gap-4 items-start lg:w-full">
         <span className="font-bold text-lg lg:text-[22px] text-black">
           Driving Change, Leading the Charge
