@@ -40,10 +40,10 @@
 
 /* Default cursor */
 body {
-  cursor: url('src/assets/cursor.svg'), default;
+  cursor: url('./assets/cursor.svg'), default;
 }
 
 /* Pointer cursor for links & buttons */
 a, button, [role="button"], .cursor-pointer {
-  cursor: url('src/assets/pointingcursor.svg'), pointer;
+  cursor: url('./assets/pointingcursor.svg'), pointer;
 }
