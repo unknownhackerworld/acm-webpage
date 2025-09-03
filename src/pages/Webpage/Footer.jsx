@@ -10,7 +10,7 @@ const Footer = () => {
         {/* Left: Social Links */}
         <div className="flex gap-4">
           <a
-            href="https://www.linkedin.com/company/acm-sjce/"
+            href="https://www.linkedin.com/company/association-for-computing-machinery-sjce-chapter/"
             target="_blank"
             rel="noopener noreferrer"
             className="w-10 h-10 flex items-center justify-center rounded-full bg-white text-[#0e8ec2] hover:bg-gray-100 transition"
